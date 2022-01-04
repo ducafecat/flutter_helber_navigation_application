@@ -14,9 +14,30 @@
 
 用到的三方组件是 `flutter_svg`, 因为 `svg icon` 能彩色显示, 比较生动
 
+## 目录
+
+```
+.
+├── main.dart         主程序
+├── pages             页面目录
+│   ├── demo.dart     演示页面
+│   └── index.dart
+├── styles            样式目录
+│   ├── color.dart    色彩定义
+│   ├── index.dart
+│   └── theme.dart    主题定义
+├── utils             工具目录
+│   ├── icons.dart    svg图标定义
+│   └── index.dart
+└── widgets           组件目录
+    ├── icon.dart     svg图标组件
+    ├── index.dart
+    └── navigation.dart   带凹陷的导航组件（重要）
+```
+
 ## 代码
 
-具体代码见 `lib/main.dart`, 我已经加入了注释
+具体代码见 `lib/main.dart`, 关键点加入了注释
 
 ```dart
   @override
